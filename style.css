@@ -1,0 +1,111 @@
+body {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 0px;
+
+}
+.container {
+    display: grid;
+}
+
+.nav {
+    justify-content: center;
+}
+
+.pagination {
+    justify-content: center;
+    margin: 15px 100px;
+    text-align: center;
+}
+
+.pagination a {
+    background-color: #1c1c1e;
+    color: lightgrey;
+    border-radius: 10px;
+    font-size: 0.7em;
+    padding: 6px;
+    width: 213px;
+    height: 40px;
+    text-decoration: none;
+
+}
+
+.pagination a.active{
+    background-color: #4caf50;
+
+}
+
+/* .pagination a:hover {
+    background-color: #4caf50;
+} */
+
+.pagination a:hover:not(.active){
+    background-color: ;
+}
+
+.banklink {
+    display: flex; 
+    background-color: #1c1c1e;
+    justify-content: center;
+    padding: 10px;
+    margin: 18px 135px;
+    border-radius: 10px;
+
+}  
+
+.carousel {
+    color: lightgrey;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.carousel-indicators li{
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+}
+
+.carousel-item {
+    height: 5rem;
+
+}
+
+.info {
+    display: flex; 
+    background-color: #1c1c1e;
+    padding: 40px;
+    margin: 15px 135px;
+    border-radius: 10px;
+}
+
+.split {
+    display: block;
+    
+}
+
+.parent {
+    font-size: 0.7em;
+    text-align: justify;
+    width: 100%;
+}
+
+.alignleft {
+    float: left;
+    color: white;
+}
+
+.alignright {
+    float: right;
+    color: lightgrey;
+}
+
+.alignleft2 {
+    float: left;
+    color: white;
+}
+
+.alignright2 {
+    float: right;
+    color: lightgrey;
+}
