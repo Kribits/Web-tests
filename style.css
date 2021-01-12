@@ -41,7 +41,7 @@ body {
 } */
 
 .pagination a:hover:not(.active){
-    background-color: ;
+    background-color: transparent;
 }
 
 .banklink {
@@ -49,7 +49,7 @@ body {
     background-color: #1c1c1e;
     justify-content: center;
     padding: 10px;
-    margin: 18px 135px;
+    margin: 18px 344px;
     border-radius: 10px;
 
 }  
@@ -75,7 +75,7 @@ body {
     display: flex; 
     background-color: #1c1c1e;
     padding: 40px;
-    margin: 15px 135px;
+    margin: 15px 344px;
     border-radius: 10px;
 }
 
@@ -89,6 +89,37 @@ body {
     text-align: justify;
     width: 100%;
 }
+
+.alignleft {
+    float: left;
+    color: white;
+}
+
+.alignright {
+    float: right;
+    color: lightgrey;
+}
+
+.alignleft2 {
+    float: left;
+    color: white;
+}
+
+.alignright2 {
+    float: right;
+    color: lightgrey;
+}
+
+.alignleft3 {
+    float: left;
+    color: white;
+}
+
+.bank {
+    float: right;
+    color: lightgrey;
+}
+
 
 .alignleft {
     float: left;
